@@ -1,20 +1,15 @@
 # cloudfideRecruitmentTask
-# 📌 Recruitment Task
 
-## 📍 Task Description
+## Task Description
 
-Implement the function `add_virtual_column` which:
-- Takes a `pandas.DataFrame`, a formula (`role`), and a name for a new column.
-- Performs basic operations (**addition `+`**, **subtraction `-`**, **multiplication `*`**) using existing DataFrame columns.
-- Returns a new DataFrame with the calculated column.
-- Returns an **empty DataFrame** if:
-  - Column names are invalid (must contain only letters and underscores `_`).
-  - The formula contains unsupported characters.
-  - The formula references columns not in the DataFrame.
+You have a panda DataFrame with existing data and want to create a new DataFrame that includes the original data along with an additional column calculated based on specific operations. To achieve this, implement the add_virtual_column_function.
+
+## Inputs
+
 
 ---
 
-## 📦 Function Signature
+## Function Signature
 
 ```python
 import pandas
